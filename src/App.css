@@ -1,9 +1,13 @@
 .App {
-  text-align: center;
 }
 
 .App-logo {
-  height: 40vmin;
+  align-self: flex-start;
+  height: 10vmin;
+  position: absolute;
+  margin: 5px;
+  left: 0;
+  top: 0;
 }
 
 .App-header {
@@ -15,6 +19,14 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.List {
+  width: 250;
+}
+
+.fullList {
+  width: 'auto';
 }
 
 .App-link {
